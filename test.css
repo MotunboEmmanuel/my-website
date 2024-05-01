@@ -7,8 +7,9 @@
   font-family: "Poppins" , sans-serif;
 }
 body{
-    height: auto;
-    width: 1000px;
+    height: 1000px;
+    width: 0 auto;
+    background-color: #1d1b31;
 }
 
 .sidebar{
@@ -229,14 +230,14 @@ body{
 }
 .home-section{
   position: relative;
-  background: #E4E9F7;
+  background-color: #201e24;
   height: auto;
   top: 0;
   left: 78px;
   width: calc(100% - 78px);
   transition: all 0.5s ease;
   z-index: 2;
-  
+  color:white;
 }
 .sidebar.open ~ .home-section{
   left: 250px;
@@ -244,7 +245,7 @@ body{
 }
 .home-section .text{
   display: inline-block;
-  color: #11101d;
+  color: white;
   font-size: 25px;
   font-weight: 500;
   margin: 18px
@@ -263,6 +264,8 @@ body{
 	align-items: center;
 	background: transparent;
 	box-shadow: -2px -2px 20px -2px black; 
+  position: relative;
+  background-color: #11101D;
 }
 .logo h1{
 	color: rgb(25, 25, 77);
@@ -271,7 +274,6 @@ body{
 .menu_list{
 	width: 80%;
 	text-align: right;
-	padding-right: 50px;
    
 }
 .header_menu{
@@ -283,7 +285,7 @@ body{
 	text-transform: uppercase;
 	list-style: none;
 	letter-spacing: 2px;
-	padding-left: 50px;
+	
 	
 }
 
@@ -300,7 +302,7 @@ body{
   }
   
   .nav {
-    float: left;
+   
   }
   
   .nav a {
@@ -311,6 +313,7 @@ body{
     text-decoration: none;
     font-weight: solid;
     font-family: "poppins" ,sans-serif;
+
   }
   
   /* Change the link color to #111 (black) on hover */
